@@ -7,15 +7,16 @@
 //
 
 import UIKit
-
+//繪製障礙的路徑
 class NamedBezierPathsView: UIView {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
+    var bezierPaths = [String: UIBezierPath]() {didSet{setNeedsDisplay() } }
+
     override func draw(_ rect: CGRect) {
-        // Drawing code
+        for(_,path) in bezierPaths {
+            path.stroke()
+        }
     }
-    */
+   
 
 }

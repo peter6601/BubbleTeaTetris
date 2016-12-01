@@ -12,6 +12,13 @@
 		D04FEA131DD6F17D00237816 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04FEA111DD6F17D00237816 /* Main.storyboard */; };
 		D04FEA151DD6F17D00237816 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D04FEA141DD6F17D00237816 /* Assets.xcassets */; };
 		D04FEA181DD6F17D00237816 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04FEA161DD6F17D00237816 /* LaunchScreen.storyboard */; };
+		D04FEA211DD6F1CA00237816 /* DropitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04FEA201DD6F1CA00237816 /* DropitView.swift */; };
+		D04FEA231DD6F20D00237816 /* DropItViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04FEA221DD6F20D00237816 /* DropItViewController.swift */; };
+		D04FEA251DD6FF3800237816 /* UIkitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04FEA241DD6FF3800237816 /* UIkitExtension.swift */; };
+		D0D055551DD73A2100C47833 /* FallingObjectBechavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D055541DD73A2100C47833 /* FallingObjectBechavior.swift */; };
+		D0D055571DD7F26900C47833 /* NamedBezierPathsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D055561DD7F26900C47833 /* NamedBezierPathsView.swift */; };
+		D0D055591DD9509600C47833 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D055581DD9509600C47833 /* SettingViewController.swift */; };
+		D0D0555B1DD986EF00C47833 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D0555A1DD986EF00C47833 /* Setting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		D04FEA141DD6F17D00237816 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D04FEA171DD6F17D00237816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D04FEA191DD6F17D00237816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D04FEA201DD6F1CA00237816 /* DropitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DropitView.swift; path = ../DropitView.swift; sourceTree = "<group>"; };
+		D04FEA221DD6F20D00237816 /* DropItViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropItViewController.swift; sourceTree = "<group>"; };
+		D04FEA241DD6FF3800237816 /* UIkitExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIkitExtension.swift; sourceTree = "<group>"; };
+		D0D055541DD73A2100C47833 /* FallingObjectBechavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FallingObjectBechavior.swift; sourceTree = "<group>"; };
+		D0D055561DD7F26900C47833 /* NamedBezierPathsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NamedBezierPathsView.swift; sourceTree = "<group>"; };
+		D0D055581DD9509600C47833 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		D0D0555A1DD986EF00C47833 /* Setting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +68,29 @@
 		D04FEA0C1DD6F17D00237816 /* TetrisSpecial */ = {
 			isa = PBXGroup;
 			children = (
+				D04FEA221DD6F20D00237816 /* DropItViewController.swift */,
+				D0D0555A1DD986EF00C47833 /* Setting.swift */,
+				D04FEA201DD6F1CA00237816 /* DropitView.swift */,
+				D0D055561DD7F26900C47833 /* NamedBezierPathsView.swift */,
+				D0D055541DD73A2100C47833 /* FallingObjectBechavior.swift */,
+				D04FEA241DD6FF3800237816 /* UIkitExtension.swift */,
+				D04FEA111DD6F17D00237816 /* Main.storyboard */,
+				D0D055581DD9509600C47833 /* SettingViewController.swift */,
+				D04FEA1F1DD6F18C00237816 /* Supporting Files */,
+			);
+			path = TetrisSpecial;
+			sourceTree = "<group>";
+		};
+		D04FEA1F1DD6F18C00237816 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				D04FEA0D1DD6F17D00237816 /* AppDelegate.swift */,
 				D04FEA0F1DD6F17D00237816 /* ViewController.swift */,
-				D04FEA111DD6F17D00237816 /* Main.storyboard */,
 				D04FEA141DD6F17D00237816 /* Assets.xcassets */,
 				D04FEA161DD6F17D00237816 /* LaunchScreen.storyboard */,
 				D04FEA191DD6F17D00237816 /* Info.plist */,
 			);
-			path = TetrisSpecial;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +166,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0D055551DD73A2100C47833 /* FallingObjectBechavior.swift in Sources */,
+				D0D055571DD7F26900C47833 /* NamedBezierPathsView.swift in Sources */,
 				D04FEA101DD6F17D00237816 /* ViewController.swift in Sources */,
+				D0D055591DD9509600C47833 /* SettingViewController.swift in Sources */,
+				D04FEA211DD6F1CA00237816 /* DropitView.swift in Sources */,
+				D04FEA231DD6F20D00237816 /* DropItViewController.swift in Sources */,
+				D04FEA251DD6FF3800237816 /* UIkitExtension.swift in Sources */,
 				D04FEA0E1DD6F17D00237816 /* AppDelegate.swift in Sources */,
+				D0D0555B1DD986EF00C47833 /* Setting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +338,7 @@
 				D04FEA1E1DD6F17D00237816 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
